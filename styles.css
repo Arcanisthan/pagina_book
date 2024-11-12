@@ -1,0 +1,23 @@
+@import url("Css/1-cabecalho.css"); /*fazer um carregamento mais rapido*/
+@import url("Css/2-banner.css");
+@import url("Css/3-carrossel.css");
+@import url("Css/4-card.css");
+@import url("Css/5-topicos.css");
+@import url("Css/6-contato.css");
+@import url("Css/7-rodape.css");
+
+:root {
+    --branco: #FFFFFF;
+    --laranja: #EB9800;
+    --degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fontes: "Poppins";
+    --azul: #002F52;
+    --fontes-secundaria:"Josefin Sans";
+    --cinza-escuro:#474646;
+    --cinza-claro:#858585;
+}
+body {
+    font-family: var(--fontes);
+    font-size: 16px;
+    font-weight: 400;
+}
